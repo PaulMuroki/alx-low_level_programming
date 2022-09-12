@@ -1,33 +1,31 @@
+
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main - Prints numbers between 00 to 89.
- * Return: Always 0 (Success)
-*/
+ * main - starting point of a function
+ *
+ * Return: Retuns 0 for success
+ */
 int main(void)
 {
-	int i, e;
+	int i, j;
 
-	i = 48;
-	e = 48;
-
-	while (e < 58)
+	for (i = 0; i <= 9; i++)
 	{
-		i = 48;
-		while (i < 58)
+		for (j = 1; j <= 9; j++)
 		{
-			if (e != i && e < i)
+			if (j > i)
 			{
-																									putchar(i);
-																									if (i == 57 && e == 56)
-																									{
-																										break;
-																									}
-																									putchar(',');
-																									putchar(' ');
+				putchar(i + '0');
+				putchar(j + '0');
+				if (i != 8)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			i++;
 		}
-		e++;
 	}
 	putchar('\n');
 	return (0);
