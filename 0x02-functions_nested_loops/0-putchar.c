@@ -1,17 +1,20 @@
 #include"main.h"
 
 /**
- * main - print putchar
- * return: return 0 for success
+ * main - starting point of a function
+ * Description: the function primts _putchar
+ * Return: Retuns 0 for success
  */
 
-void main(void)
+int main(void)
 {
-	char string[] = "_putchar";
-	int len = strlen(string);
-	int counter = 0;
+	char source[] = "_putchar";
+	int i;
+	int len = strlen(source);
 
-	for (counter < len; counter++;)
-		_putchar(string[counter]);
+	for (i = 0; i < len; i++)
+		_putchar(source[i]);
 	_putchar('\n');
+
+	return (0);
 }
