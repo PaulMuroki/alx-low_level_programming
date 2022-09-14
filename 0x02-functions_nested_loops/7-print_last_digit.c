@@ -5,8 +5,11 @@
  * Decsription: check the last digit of the number
  * Return: the last digit
  */
+
 int print_last_digit(int n)
 {
-	return (n % 10);
+	int res;
+	res = n % 10;
+	return (res);
 }
 
