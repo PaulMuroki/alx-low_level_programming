@@ -3,7 +3,7 @@
  * print_sign - function to ccheck if a number is positive or negative
  *
  * @n: the value of the number
- * return: 1 if positive, 0 is zero or -1 if negative
+ * Return: 1 if positive, 0 is zero or -1 if negative
  */
 
 int print_sign(int n)
