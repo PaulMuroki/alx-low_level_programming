@@ -1,10 +1,13 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * print_alphabet - function to print abc
+ * print_alphabet - starting point of a function
  *
- * return: 0
+ * Description: the function prints alphabets in lower case
+ *
+ * Return: Retuns nothing
  */
+
 void print_alphabet(void)
 {
 	char c;
