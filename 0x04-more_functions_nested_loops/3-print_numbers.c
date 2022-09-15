@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - function prints digits 
+ * print_numbers - functionprints 0-9
  *
- * Description: the function prints digit numbers from 0 to 9
- *Return: returns nothing
+ * Description: the function prints digit numbers
+ *
+ * Return: Retuns nothing
  */
 
 void print_numbers(void)
