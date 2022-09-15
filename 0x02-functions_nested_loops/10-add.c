@@ -5,8 +5,8 @@
  *
  * @a: first number
  *
- * @b: second number 
- * 
+ * @b: second number
+ *
  * Description: add two variables a and b
  *
  * Return: returns total
