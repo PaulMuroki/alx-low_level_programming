@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * iprint_to_98 - function prints number between n and 98
+ * print_to_98 - function prints number between n and 98
  *
  * @n: integer number
  * Description: the function prints all number in the range
