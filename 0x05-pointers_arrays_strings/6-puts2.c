@@ -5,7 +5,7 @@
  *
  * @str: a string
  *
- * Description: prints every other character of a string, 
+ * Description: prints every other character of a string
  *
  * Return: Return nothing
  */
